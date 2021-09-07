@@ -48,18 +48,9 @@ export default {
 
 <style lang='less' scoped>
 .iconfont {
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
 }
-#mine {
-  position: absolute;
-  right: 3.8rem;
-  background: white;
-  top: 9rem;
-  opacity: 0;
-  box-sizing: border-box;
-  padding: .3rem;
-  transition: .5s;
-}
+
 .nav-item {
   margin-bottom: 1rem;
   height: 3.5rem;
@@ -67,7 +58,7 @@ export default {
   display: flex;
   background: white;
   flex-direction: column;
-  align-items: center;
+  justify-content:center;
 }
 .nav-selected {
   background: rgb(123, 123, 238);
